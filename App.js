@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:4000'); // Update URL after backend deployment
+const socket = io('http://34.93.246.160:4000');
 
 function App() {
   const [roomId, setRoomId] = useState('');
